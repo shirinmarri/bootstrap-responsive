@@ -5,12 +5,12 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./public/css/main.css">
   </head>
   <body class="bg-KarimBody ">
     <!-- fixed button start -->
-    <div class="fixed bg-dark border-1 border-white rounded-2 d-flex justify-content-center align-items-center" style="width: 48px; height: 48px; position: fixed; bottom: 50px; right: 50px; z-index: 9999;">
+    <div class="fixed bg-black border-1 border-white rounded-2 d-flex justify-content-center align-items-center" style="width: 48px; height: 48px; position: fixed; bottom: 50px; right: 50px; z-index: 9999;">
       <button class="btn ">
          
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,13 +20,13 @@
       </button>
   </div>
   
-    <!-- fixed button start -->
+    <!-- fixed button end -->
 
     <!-- start -->
     <div class="container-fluid p-0 position-relative">
   <!-- header start -->
 
-<header class=" col-11 mx-auto bg-KarimBody px-xxl-0   mx-auto">
+<header class=" col-11 mx-auto bg-KarimBody px-xxl-0   mx-auto fixed-top">
   <!-- top start -->
   <div class="w-100 h-100 m-0 d-flex  justify-content-between align-items-center ">
     <!-- navbar icom tablet -->
@@ -1050,12 +1050,12 @@
     </div>
       <!-- part-2 end -->
        <!-- part-3 start -->
-       <div class="w-100 position-relative " style="height: 147px;"> 
+       <div class="w-100 position-relative ms-2 ms-md-0 " style="height: 147px;"> 
         <h2 class="text-white position-absolute top-50 ms-5"> Recommended </h2>
       </div>
       
-      <div class="card-group gap-3 col-11 mx-auto ">
-        <div class="card bg-dark rounded-3 col-4 col-md-4 col-lg-2" >
+      <div class="card-group gap-3 col-11 mx-auto">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2" >
           <img src="./public/images/card1.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1087,7 +1087,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 col-4 col-md-4 col-lg-2" >
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2" >
           <img src="./public/images/card2.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1119,7 +1119,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-none d-sm-block col-md-4 col-lg-2 " >
+        <div class="card bg-dark rounded-3 d-none d-md-block col-md-4 col-lg-2 " >
           <img src="./public/images/card3.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1151,7 +1151,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none col-lg-2" >
+        <div class="card bg-dark rounded-3 d-xl-block d-none col-lg-2" >
           <img src="./public/images/card4.png" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1183,7 +1183,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none col-lg-2" >
+        <div class="card bg-dark rounded-3  d-none d-xxl-block col-xl-2" >
           <img src="./public/images/card5.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1217,8 +1217,8 @@
         </div>
       </div>
 
-       <div class="card-group gap-3 col-11 mx-auto mt-3"> 
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+       <div class="card-group gap-3 col-11 mx-auto mt-3 "> 
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2" >
           <img src="./public/images/card1.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1250,7 +1250,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2" >
           <img src="./public/images/card2.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1282,7 +1282,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3  d-none d-sm-block" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-md-block" >
           <img src="./public/images/card3.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1314,7 +1314,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 d-xl-block d-none" >
           <img src="./public/images/card4.png" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1346,7 +1346,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-xxl-block" >
           <img src="./public/images/card5.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1383,7 +1383,7 @@
         <h2 class="text-white position-absolute top-50 ms-5"> Featured </h2>
       </div>
       <div class="card-group gap-3 col-11 mx-auto mt-3">
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2" >
           <img src="./public/images/card1.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1415,7 +1415,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2" >
           <img src="./public/images/card2.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1447,7 +1447,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3  d-none d-sm-block" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-md-block" >
           <img src="./public/images/card3.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1479,7 +1479,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 d-xl-block d-none" >
           <img src="./public/images/card4.png" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1511,7 +1511,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-xxl-block" >
           <img src="./public/images/card5.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1545,7 +1545,7 @@
         </div>
       </div>
       <div class="card-group gap-3 col-11 mx-auto mt-3">
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2" >
           <img src="./public/images/card1.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1577,7 +1577,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2" >
           <img src="./public/images/card2.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1609,7 +1609,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3  d-none d-sm-block" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-md-block" >
           <img src="./public/images/card3.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1641,7 +1641,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 d-xl-block d-none" >
           <img src="./public/images/card4.png" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1673,7 +1673,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-xxl-block" >
           <img src="./public/images/card5.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1710,7 +1710,7 @@
         <h2 class="text-white position-absolute top-50 ms-5"> Trending Now </h2>
       </div>
       <div class="card-group gap-3 col-11 mx-auto mt-3"> 
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2">
           <img src="./public/images/card1.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1742,7 +1742,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2">
           <img src="./public/images/card2.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1774,7 +1774,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3  d-none d-sm-block" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-md-block" >
           <img src="./public/images/card3.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1806,7 +1806,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 d-xl-block d-none">
           <img src="./public/images/card4.png" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1838,7 +1838,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-xxl-block">
           <img src="./public/images/card5.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1872,7 +1872,7 @@
         </div>
       </div>
       <div class="card-group gap-3 col-11 mx-auto mt-3">
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2">
           <img src="./public/images/card1.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1904,7 +1904,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2">
           <img src="./public/images/card2.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1936,7 +1936,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3  d-none d-sm-block" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-md-block" >
           <img src="./public/images/card3.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -1968,7 +1968,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 d-xl-block d-none">
           <img src="./public/images/card4.png" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2000,7 +2000,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-xxl-block">
           <img src="./public/images/card5.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2037,7 +2037,7 @@
         <h2 class="text-white position-absolute top-50 ms-5"> Most Gifted </h2>
       </div>
       <div class="card-group gap-3 col-11 mx-auto mt-3">
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2">
           <img src="./public/images/card1.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2069,7 +2069,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2">
           <img src="./public/images/card2.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2101,7 +2101,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3  d-none d-sm-block" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-md-block">
           <img src="./public/images/card3.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2133,7 +2133,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 d-xl-block d-none">
           <img src="./public/images/card4.png" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2165,7 +2165,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-xxl-block">
           <img src="./public/images/card5.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2199,7 +2199,7 @@
         </div>
       </div>
       <div class="card-group gap-3 col-11 mx-auto mt-3">
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2">
           <img src="./public/images/card1.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2231,7 +2231,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 col-12 col-md-4 col-lg-2">
           <img src="./public/images/card2.webp" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2263,7 +2263,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3  d-none d-sm-block" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-md-block">
           <img src="./public/images/card3.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2295,7 +2295,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3 d-xl-block d-none">
           <img src="./public/images/card4.png" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2327,7 +2327,7 @@
               </div>
           </div>
         </div>
-        <div class="card bg-dark rounded-3 d-md-block d-none" style="width: 18rem;">
+        <div class="card bg-dark rounded-3  d-none d-xxl-block">
           <img src="./public/images/card5.avif" class="rounded-top-3 card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">
@@ -2367,7 +2367,7 @@
             <img src="./public/images/Laptop.png" class=" position-absolute h-75 w-50" style="top:70px; left: 40px;">
           </div>
          <!-- part4-end -->
-          <!-- footer stars -->
+          <!-- footer start -->
            <footer class="w-100 bg-dark" style="height: 270px;">
             <div class="w-100 h-50 d-flex border-bottom">
               <div class="w-75 h-100 m-5 ">
@@ -2456,7 +2456,7 @@
 
     <!-- end -->
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
  <script>
   let btn=document.querySelector(".bars")
   let menu=document.querySelector(".mdMenu")
